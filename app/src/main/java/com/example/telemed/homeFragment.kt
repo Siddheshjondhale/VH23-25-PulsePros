@@ -6,6 +6,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.example.telemed.databinding.FragmentHomeBinding
+import com.google.firebase.auth.FirebaseAuth
 
 private const val ARG_PARAM1 = "param1"
 private const val ARG_PARAM2 = "param2"
@@ -41,9 +42,20 @@ class homeFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        //main code resides in this
-    }
+        val emailTextView = binding.text // Replace with the ID of your TextView
+        val auth = FirebaseAuth.getInstance()
+        val currentUser = auth.currentUser
 
+        // Check if the user is logged in
+        if (currentUser != null) {
+            // User is logged in, set their email to the TextView
+            val userEmail = currentUser.email
+            emailTextView.text = "User Email: $userEmail"
+        } else {
+            // User is not logged in, handle accordingly (e.g., redirect to login)
+            emailTextView.text = "User Email: Not Logged In"
+        }
+    }
 
 
     companion object {

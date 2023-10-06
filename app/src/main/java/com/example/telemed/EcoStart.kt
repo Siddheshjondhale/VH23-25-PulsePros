@@ -20,7 +20,8 @@ class EcoStart : AppCompatActivity() {
         val btnGetStarted=binding.btnGetStarted
 
         btnGetStarted.setOnClickListener{
-            startActivity(Intent(this, MainActivity::class.java))
+
+            startActivity(Intent(this, LoginScreen::class.java))
 
         }
 

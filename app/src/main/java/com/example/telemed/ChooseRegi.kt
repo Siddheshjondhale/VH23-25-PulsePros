@@ -1,5 +1,6 @@
 package com.example.telemed
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.telemed.databinding.ActivityChooseRegiBinding
@@ -15,10 +16,11 @@ class ChooseRegi : AppCompatActivity() {
 
 
         var doctorRegPage=binding.doctorRegPage
- var pateintRegpage=binding.pateintRegpage
+            var pateintRegpage=binding.pateintRegpage
 
 
         doctorRegPage.setOnClickListener{
+            startActivity(Intent(this, DoctorRegPage::class.java))
 
         }
 

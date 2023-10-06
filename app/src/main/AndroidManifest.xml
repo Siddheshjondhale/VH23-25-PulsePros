@@ -14,6 +14,9 @@
         android:theme="@style/Theme.TELEMED"
         tools:targetApi="31">
         <activity
+            android:name=".patientReg"
+            android:exported="false" />
+        <activity
             android:name=".DoctorRegPage"
             android:exported="false" />
         <activity
@@ -43,6 +46,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+
     </application>
 
 </manifest>

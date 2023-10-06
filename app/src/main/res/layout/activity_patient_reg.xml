@@ -77,7 +77,7 @@
             android:orientation="vertical">
 
             <TextView
-                android:id="@+id/txtAddressemail"
+                android:id="@+id/fdfdfd"
                 style="@style/txtIntersemibold16_1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -85,10 +85,10 @@
                 android:layout_marginTop="@dimen/_18pxv"
                 android:ellipsize="end"
                 android:singleLine="true"
-                android:text="@string/lbl_address_e_mail" />
+                android:text="First name" />
 
             <LinearLayout
-                android:id="@+id/linearColumnenteremail"
+                android:id="@+id/gfgf"
                 style="@style/groupStylecornerRadius_1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -98,18 +98,18 @@
                 android:orientation="vertical">
 
                 <EditText
-                    android:id="@+id/txtEnteremail"
+                    android:id="@+id/Fname"
                     style="@style/txtIntersemibold16_2"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:ellipsize="end"
                     android:gravity="start"
-                    android:hint="@string/lbl_enter_email"
+                    android:hint="First name"
                     android:singleLine="true" />
             </LinearLayout>
 
             <TextView
-                android:id="@+id/txtPassword"
+                android:id="@+id/gfgfddf"
                 style="@style/txtIntersemibold16_1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -117,7 +117,7 @@
                 android:layout_marginEnd="@dimen/_20pxh"
                 android:ellipsize="end"
                 android:singleLine="true"
-                android:text="@string/lbl_password" />
+                android:text="Last Name" />
 
             <LinearLayout
                 android:id="@+id/linearColumnenterpassword"
@@ -131,20 +131,20 @@
                 android:orientation="vertical">
 
                 <EditText
-                    android:id="@+id/txtEnterpassword"
+                    android:id="@+id/Lname"
                     style="@style/txtIntersemibold16_2"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:ellipsize="end"
                     android:gravity="start"
-                    android:hint="@string/lbl_enter_password"
+                    android:hint="Last name"
                     android:singleLine="true" />
             </LinearLayout>
 
 
 
             <TextView
-                android:id="@+id/RegDoctorNo"
+                android:id="@+id/fgfg"
                 style="@style/txtIntersemibold16_1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -152,7 +152,7 @@
                 android:layout_marginEnd="@dimen/_20pxh"
                 android:ellipsize="end"
                 android:singleLine="true"
-                android:text="Registeration" />
+                android:text="Email" />
 
             <LinearLayout
                 android:id="@+id/layoutlol"
@@ -166,19 +166,19 @@
                 android:orientation="vertical">
 
                 <EditText
-                    android:id="@+id/RegNoProper"
+                    android:id="@+id/EmailPat"
                     style="@style/txtIntersemibold16_2"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:ellipsize="end"
                     android:gravity="start"
-                    android:hint="Reg NO"
+                    android:hint="Enter Email"
                     android:singleLine="true" />
             </LinearLayout>
 
 
             <TextView
-                android:id="@+id/RegDoctoryear"
+                android:id="@+id/fdf"
                 style="@style/txtIntersemibold16_1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -186,7 +186,7 @@
                 android:layout_marginEnd="@dimen/_20pxh"
                 android:ellipsize="end"
                 android:singleLine="true"
-                android:text="Registeration" />
+                android:text="Password" />
 
             <LinearLayout
                 android:id="@+id/layoutlyear"
@@ -200,13 +200,14 @@
                 android:orientation="vertical">
 
                 <EditText
-                    android:id="@+id/RegNoyearProper"
+                    android:id="@+id/PassPat"
                     style="@style/txtIntersemibold16_2"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:ellipsize="end"
                     android:gravity="start"
-                    android:hint="Reg NO"
+                    android:inputType="textPassword"
+                    android:hint="Passowrd"
                     android:singleLine="true" />
             </LinearLayout>
 

@@ -21,16 +21,33 @@ class SplashScreen : AppCompatActivity() {
         val isFirstLaunch = getSharedPreferences("MyPrefs", MODE_PRIVATE).getBoolean(isFirstLaunchKey, true)
 
         Handler(mainLooper).postDelayed({
+
+            val firebaseAuth = FirebaseAuth.getInstance()
+            val currentUser = firebaseAuth.currentUser
+
+
             if (isFirstLaunch) {
                 // It's the first launch, navigate to EcoStart activity
-                startActivity(Intent(this, LoginScreen::class.java))
+                startActivity(Intent(this, EcoStart::class.java))
 
                 // Set the first launch flag to false
                 getSharedPreferences("MyPrefs", MODE_PRIVATE).edit().putBoolean(isFirstLaunchKey, false).apply()
             } else {
-                // Not the first launch, navigate to MainActivity or any other appropriate activity
-                startActivity(Intent(this, LoginScreen::class.java))
+
+                // Not the first launch, check if the user is authenticated
+                if (currentUser != null) {
+                    // User is already logged in, navigate to MainActivity
+                    startActivity(Intent(this, MainActivity::class.java))
+                } else {
+                    // User is not logged in, navigate to LoginActivity
+                    startActivity(Intent(this, LoginScreen::class.java))
+                }
+
+
             }
+
+
+
 
             finish()
         }, 500)
