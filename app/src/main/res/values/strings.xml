@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">TELEMED</string>
+    <string name="home">Home</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="guard">Guard</string>
+    <string name="user">User</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <!--    srushti -->
+    <string name="loading">Loading…</string>
+    <string name="no_internet_connection">No internet connection!</string>
+    <string name="lbl_doctor">Doctor</string>
+    <string name="lbl_patient">Patient</string>
+    <string name="msg_forget_password">Forget password ?</string>
+    <string name="lbl_get_started">Get Started</string>
+    <string name="msg_welcome_back_p">Welcome back. Please fill in the form
+ to sign in and continue.</string>
+    <string name="lbl_password">Password</string>
+    <string name="msg_hello_login_no">Hello,
+login now.</string>
+    <string name="lbl_hello">Hello,
+</string>
+    <string name="lbl_virtual">Virtual
+</string>
+    <string name="lbl_login">Login</string>
+    <string name="msg_specialized_hea">Specialized healthcare, on a single tech platform, simplifying access for anyone, anywhere.</string>
+    <string name="lbl_address_e_mail">Address e-mail</string>
+    <string name="lbl_login_now">login now.</string>
+    <string name="lbl_enter_password">enter password</string>
+    <string name="msg_virtual_ecosyst">Virtual
+Ecosystem.</string>
+    <string name="lbl_enter_email">enter email</string>
+    <string name="lbl_ecosystem">Ecosystem.</string>
+
+
+</resources>
