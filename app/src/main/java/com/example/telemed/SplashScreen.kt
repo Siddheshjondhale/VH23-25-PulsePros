@@ -23,13 +23,13 @@ class SplashScreen : AppCompatActivity() {
         Handler(mainLooper).postDelayed({
             if (isFirstLaunch) {
                 // It's the first launch, navigate to EcoStart activity
-                startActivity(Intent(this, EcoStart::class.java))
+                startActivity(Intent(this, LoginScreen::class.java))
 
                 // Set the first launch flag to false
                 getSharedPreferences("MyPrefs", MODE_PRIVATE).edit().putBoolean(isFirstLaunchKey, false).apply()
             } else {
                 // Not the first launch, navigate to MainActivity or any other appropriate activity
-                startActivity(Intent(this, MainActivity::class.java))
+                startActivity(Intent(this, LoginScreen::class.java))
             }
 
             finish()

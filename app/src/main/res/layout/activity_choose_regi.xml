@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChooseRegi">
+    <LinearLayout android:gravity="center_horizontal"
+        android:id="@+id/linearThirdpage"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical" style="@style/groupStyledeep_purple_800">
+        <ImageView
+            android:id="@+id/doctorRegPage"
+            android:layout_width="@dimen/_210pxh"
+            android:layout_height="@dimen/_190pxh"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="@dimen/_80pxh"
+            android:layout_marginEnd="@dimen/_70pxh"
+            android:layout_marginTop="@dimen/_60pxv"
+            android:scaleType="fitXY"
+            android:src="@drawable/img_rectangle1"
+        tools:ignore="ContentDescription" />
+
+        <TextView android:ellipsize="end" android:id="@+id/txtDoctor"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_80pxh"
+            android:layout_marginStart="@dimen/_80pxh"
+            android:layout_marginTop="@dimen/_1pxv"
+            android:layout_width="wrap_content"
+            android:singleLine="true"
+
+            style="@style/txtInterbold36" android:text="@string/lbl_doctor"/>
+        <ImageView android:id="@+id/pateintRegpage"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="@dimen/_200pxh"
+            android:layout_marginEnd="@dimen/_80pxh"
+            android:layout_marginStart="@dimen/_80pxh"
+            android:layout_marginTop="@dimen/_95pxv"
+            android:layout_width="@dimen/_190pxh"
+
+            tools:ignore="ContentDescription" android:src="@drawable/img_rectangle2"/>
+        <TextView android:ellipsize="end" android:id="@+id/txtPatient"
+            android:layout_gravity="end"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_20pxv"
+            android:layout_marginEnd="@dimen/_108pxh"
+            android:layout_marginStart="@dimen/_108pxh"
+            android:layout_marginTop="@dimen/_9pxv"
+            android:layout_width="wrap_content"
+            android:singleLine="true"
+
+            style="@style/txtInterbold36" android:text="@string/lbl_patient"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

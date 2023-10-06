@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginScreen">
+
+
+    <LinearLayout
+        android:id="@+id/linearSecondpage"
+        style="@style/groupStylewhite_A700"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageEllipseOne"
+            android:layout_width="@dimen/_103pxh"
+            android:layout_height="@dimen/_80pxh"
+            android:layout_gravity="end"
+            android:layout_marginStart="@dimen/_10pxh"
+            android:scaleType="fitXY"
+            tools:ignore="ContentDescription"
+            android:src="@drawable/img_ellipse1" />
+
+        <FrameLayout
+            android:id="@+id/frameStackellipsetwo"
+            android:layout_width="@dimen/_89pxh"
+            android:layout_height="@dimen/_80pxv"
+            android:layout_gravity="end"
+            android:layout_marginStart="@dimen/_71pxh"
+            android:layout_marginEnd="@dimen/_71pxh">
+
+            <View
+                android:id="@+id/viewEllipseTwo"
+                android:layout_width="@dimen/_70pxh"
+                android:layout_height="@dimen/_70pxh"
+                android:layout_gravity="top|start"
+                android:layout_marginEnd="@dimen/_10pxh"
+                android:layout_marginBottom="@dimen/_10pxv"
+                android:background="@drawable/rectangle_bg_deep_purple_900_radius_35" />
+
+            <View
+                android:id="@+id/viewEllipseThree"
+                android:layout_width="@dimen/_20pxh"
+                android:layout_height="@dimen/_20pxh"
+                android:layout_gravity="bottom|end"
+                android:layout_marginStart="@dimen/_10pxh"
+                android:layout_marginTop="@dimen/_10pxv"
+                android:background="@drawable/rectangle_bg_light_green_a700_radius_10" />
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/txtHelloregisteer"
+            style="@style/txtInterbold32"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginStart="@dimen/_31pxh"
+            android:layout_marginTop="@dimen/_31pxv"
+
+            android:layout_marginEnd="@dimen/_31pxh"
+            android:text="Register now" />
+
+
+
+        <LinearLayout
+            android:id="@+id/linearColumnaddressemail"
+            style="@style/groupStylecornerRadius"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_10pxh"
+            android:layout_marginTop="@dimen/_3pxv"
+            android:layout_marginEnd="@dimen/_10pxh"
+            android:gravity="start"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtAddressemail"
+                style="@style/txtIntersemibold16_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_20pxh"
+                android:layout_marginTop="@dimen/_18pxv"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:text="@string/lbl_address_e_mail" />
+
+            <LinearLayout
+                android:id="@+id/linearColumnenteremail"
+                style="@style/groupStylecornerRadius_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_20pxh"
+                android:layout_marginEnd="@dimen/_20pxh"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/txtEnteremail"
+                    style="@style/txtIntersemibold16_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:ellipsize="end"
+                    android:gravity="start"
+                    android:hint="@string/lbl_enter_email"
+                    android:singleLine="true" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txtPassword"
+                style="@style/txtIntersemibold16_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_20pxh"
+                android:layout_marginEnd="@dimen/_20pxh"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:text="@string/lbl_password" />
+
+            <LinearLayout
+                android:id="@+id/linearColumnenterpassword"
+                style="@style/groupStylecornerRadius_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_20pxh"
+                android:layout_marginEnd="@dimen/_20pxh"
+                android:layout_marginBottom="@dimen/_24pxv"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/txtEnterpassword"
+                    style="@style/txtIntersemibold16_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:ellipsize="end"
+                    android:gravity="start"
+                    android:hint="@string/lbl_enter_password"
+                    android:singleLine="true" />
+            </LinearLayout>
+
+
+
+            <TextView
+                android:id="@+id/RegDoctorNo"
+                style="@style/txtIntersemibold16_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_20pxh"
+                android:layout_marginEnd="@dimen/_20pxh"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:text="Registeration" />
+
+            <LinearLayout
+                android:id="@+id/layoutlol"
+                style="@style/groupStylecornerRadius_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_20pxh"
+                android:layout_marginEnd="@dimen/_20pxh"
+                android:layout_marginBottom="@dimen/_24pxv"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/RegNoProper"
+                    style="@style/txtIntersemibold16_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:ellipsize="end"
+                    android:gravity="start"
+                    android:hint="Reg NO"
+                    android:singleLine="true" />
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/RegDoctoryear"
+                style="@style/txtIntersemibold16_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_20pxh"
+                android:layout_marginEnd="@dimen/_20pxh"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:text="Registeration" />
+
+            <LinearLayout
+                android:id="@+id/layoutlyear"
+                style="@style/groupStylecornerRadius_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_20pxh"
+                android:layout_marginEnd="@dimen/_20pxh"
+                android:layout_marginBottom="@dimen/_24pxv"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/RegNoyearProper"
+                    style="@style/txtIntersemibold16_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:ellipsize="end"
+                    android:gravity="start"
+                    android:hint="Reg NO"
+                    android:singleLine="true" />
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnLoginOne"
+            style="@style/btnSolidRounded"
+            android:layout_width="@dimen/_95pxh"
+            android:layout_height="@dimen/_39pxv"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="@dimen/_10pxh"
+            android:layout_marginTop="@dimen/_20pxv"
+            android:layout_marginEnd="@dimen/_2pxh"
+            android:layout_marginBottom="@dimen/_2pxv"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:paddingStart="@dimen/_25pxh"
+            android:paddingTop="@dimen/_9pxv"
+            android:paddingEnd="@dimen/_25pxh"
+            android:paddingBottom="@dimen/_9pxv"
+            android:singleLine="true"
+            android:text="@string/lbl_login"
+            android:textAllCaps="false" />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/goToregister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="660sp"
+        android:layout_marginBottom="16dp"
+        android:text="Not a Member Register"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/linearSecondpage" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

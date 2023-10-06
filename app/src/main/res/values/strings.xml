@@ -9,30 +9,75 @@
 
 
     <!--    srushti -->
-    <string name="loading">Loading…</string>
-    <string name="no_internet_connection">No internet connection!</string>
-    <string name="lbl_doctor">Doctor</string>
-    <string name="lbl_patient">Patient</string>
+    <string name="lbl_m">M</string>
+    <string name="lbl_upload_photo">Upload Photo</string>
+    <string name="lbl_next">Next</string>
     <string name="msg_forget_password">Forget password ?</string>
+    <string name="lbl_phone_no">Phone no.</string>
+    <string name="lbl_doctor_profile">Doctor Profile</string>
+    <string name="lbl_age">Age</string>
+    <string name="msg_create_a_new_ac">Create a new account</string>
+    <string name="lbl_firstname">Firstname</string>
+    <string name="lbl_phone">Phone</string>
+    <string name="lbl_date_of_birth">Date of Birth</string>
+    <string name="lbl_register_year">Register year</string>
+    <string name="lbl_qualification">Qualification</string>
+    <string name="lbl_patient">Patient</string>
     <string name="lbl_get_started">Get Started</string>
     <string name="msg_welcome_back_p">Welcome back. Please fill in the form
  to sign in and continue.</string>
-    <string name="lbl_password">Password</string>
+    <string name="lbl_enter_age">Enter age</string>
     <string name="msg_hello_login_no">Hello,
 login now.</string>
+    <string name="lbl_register_no2">Register no.</string>
+    <string name="msg_enter_register">enter register year</string>
+    <string name="lbl_name">Name</string>
+    <string name="msg_enter_specializ">enter specialized</string>
     <string name="lbl_hello">Hello,
 </string>
-    <string name="lbl_virtual">Virtual
-</string>
-    <string name="lbl_login">Login</string>
-    <string name="msg_specialized_hea">Specialized healthcare, on a single tech platform, simplifying access for anyone, anywhere.</string>
+    <string name="msg_hello_register">Hello,
+Register now</string>
     <string name="lbl_address_e_mail">Address e-mail</string>
+    <string name="lbl_username">Username</string>
     <string name="lbl_login_now">login now.</string>
-    <string name="lbl_enter_password">enter password</string>
     <string name="msg_virtual_ecosyst">Virtual
 Ecosystem.</string>
-    <string name="lbl_enter_email">enter email</string>
+    <string name="lbl_enter_phone_no">enter phone no.</string>
+    <string name="lbl_email_id">Email id</string>
     <string name="lbl_ecosystem">Ecosystem.</string>
+    <string name="lbl_register_here">Register Here</string>
+    <string name="lbl_fullname">Fullname</string>
+    <string name="lbl_doctor">Doctor</string>
+    <string name="lbl_register_now">Register now</string>
+    <string name="lbl_virtual">Virtual
+</string>
+    <string name="lbl_enter_username">enter username.</string>
+    <string name="lbl_patient_profile">Patient Profile</string>
+    <string name="lbl_login">Login</string>
+    <string name="lbl_register_no">Register No.</string>
+    <string name="lbl_enter_email">enter email</string>
+    <string name="msg_enter_qualifica">enter qualification</string>
+    <string name="lbl_enter_dob">enter DOB</string>
+    <string name="lbl_enter_address">Enter Address</string>
+    <string name="lbl_lastname">Lastname</string>
+    <string name="lbl_email_id2">Email Id</string>
+    <string name="lbl_password">Password</string>
+    <string name="lbl_enter_ph_no">enter ph no.</string>
+    <string name="lbl_specialized">Specialized</string>
+    <string name="lbl_address">Address</string>
+    <string name="msg_specialized_hea">Specialized healthcare, on a single tech platform, simplifying access for anyone, anywhere.</string>
+    <string name="lbl_enter_password">enter password</string>
+
+
+
+
+
+
+
+
+
+
+
 
 
 </resources>
