@@ -64,7 +64,6 @@
             android:text="Register now" />
 
 
-
         <LinearLayout
             android:id="@+id/linearColumnaddressemail"
             style="@style/groupStylecornerRadius"
@@ -81,10 +80,12 @@
                 style="@style/txtIntersemibold16_1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="@dimen/_20pxh"
-                android:layout_marginTop="@dimen/_18pxv"
+
                 android:ellipsize="end"
                 android:singleLine="true"
+                android:layout_marginEnd="@dimen/_25pxh"
+                android:layout_marginStart="@dimen/_25pxh"
+                android:layout_marginTop="@dimen/_13pxv"
                 android:text="First name" />
 
             <LinearLayout
@@ -113,8 +114,9 @@
                 style="@style/txtIntersemibold16_1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="@dimen/_20pxh"
-                android:layout_marginEnd="@dimen/_20pxh"
+                android:layout_marginEnd="@dimen/_25pxh"
+                android:layout_marginStart="@dimen/_25pxh"
+                android:layout_marginTop="@dimen/_9pxv"
                 android:ellipsize="end"
                 android:singleLine="true"
                 android:text="Last Name" />
@@ -215,7 +217,10 @@
 
         </LinearLayout>
 
-        <androidx.appcompat.widget.AppCompatButton
+
+
+
+    <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btnRegister"
             style="@style/btnSolidRounded"
             android:layout_width="wrap_content"
@@ -244,7 +249,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="660sp"
         android:layout_marginBottom="16dp"
-        android:text="Not a Member Register"
+        android:text="Already have an account? Login"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
