@@ -150,6 +150,7 @@
                     android:layout_height="match_parent"
                     android:ellipsize="end"
                     android:gravity="start"
+                    android:inputType="textPassword"
                     android:hint="@string/lbl_enter_password"
                     android:singleLine="true" />
             </LinearLayout>

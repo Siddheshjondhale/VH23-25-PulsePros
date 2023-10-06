@@ -25,7 +25,7 @@ class ChooseRegi : AppCompatActivity() {
         }
 
         pateintRegpage.setOnClickListener{
-
+            startActivity(Intent(this, patientReg::class.java))
         }
 
 

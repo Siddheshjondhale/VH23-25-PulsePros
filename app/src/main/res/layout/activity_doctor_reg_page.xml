@@ -74,6 +74,7 @@
             android:layout_marginTop="@dimen/_3pxv"
             android:layout_marginEnd="@dimen/_10pxh"
             android:gravity="start"
+
             android:orientation="vertical">
 
             <TextView
@@ -138,6 +139,7 @@
                     android:ellipsize="end"
                     android:gravity="start"
                     android:hint="@string/lbl_enter_password"
+                    android:inputType="textPassword"
                     android:singleLine="true" />
             </LinearLayout>
 

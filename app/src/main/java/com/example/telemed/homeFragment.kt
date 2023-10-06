@@ -1,5 +1,6 @@
 package com.example.telemed
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
@@ -55,6 +56,24 @@ class homeFragment : Fragment() {
             // User is not logged in, handle accordingly (e.g., redirect to login)
             emailTextView.text = "User Email: Not Logged In"
         }
+
+
+        var button = binding.logout
+        button.setOnClickListener{
+            // Sign out the current user
+            auth.signOut()
+
+            // Optionally, you can navigate the user to the login or home screen
+            // For example, if you have a LoginActivity:
+            startActivity(Intent(requireContext(), LoginScreen::class.java))
+
+        }
+
+
+
+
+
+
     }
 
 
