@@ -174,7 +174,7 @@
                     android:layout_height="match_parent"
                     android:ellipsize="end"
                     android:gravity="start"
-                    android:hint="Reg NO"
+                    android:hint="Reg number"
                     android:singleLine="true" />
             </LinearLayout>
 
