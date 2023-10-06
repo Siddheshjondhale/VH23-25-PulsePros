@@ -50,7 +50,7 @@ class SplashScreen : AppCompatActivity() {
 
 
             finish()
-        }, 500)
+        }, 2000)
     }
 }
 

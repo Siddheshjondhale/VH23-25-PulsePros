@@ -19,37 +19,46 @@
             android:layout_marginEnd="@dimen/_70pxh"
             android:layout_marginTop="@dimen/_60pxv"
             android:scaleType="fitXY"
-            android:src="@drawable/img_rectangle1"
+            android:src="@drawable/doctorchoose"
         tools:ignore="ContentDescription" />
 
-        <TextView android:ellipsize="end" android:id="@+id/txtDoctor"
-            android:layout_gravity="center_horizontal"
-            android:layout_height="wrap_content"
-            android:layout_marginEnd="@dimen/_80pxh"
-            android:layout_marginStart="@dimen/_80pxh"
-            android:layout_marginTop="@dimen/_1pxv"
+        <TextView
+            android:id="@+id/txtDoctor"
+            style="@style/txtInterbold36"
             android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="@dimen/_87pxh"
+            android:layout_marginTop="@dimen/_1pxv"
+            android:layout_marginEnd="@dimen/_80pxh"
+            android:ellipsize="end"
             android:singleLine="true"
 
-            style="@style/txtInterbold36" android:text="@string/lbl_doctor"/>
-        <ImageView android:id="@+id/pateintRegpage"
-            android:layout_gravity="center_horizontal"
-            android:layout_height="@dimen/_200pxh"
-            android:layout_marginEnd="@dimen/_80pxh"
-            android:layout_marginStart="@dimen/_80pxh"
-            android:layout_marginTop="@dimen/_95pxv"
-            android:layout_width="@dimen/_190pxh"
+            android:text="@string/lbl_doctor"
+            android:textColor="@color/white" />
 
-            tools:ignore="ContentDescription" android:src="@drawable/img_rectangle2"/>
+        <ImageView
+            android:id="@+id/pateintRegpage"
+            android:layout_width="@dimen/_210pxh"
+            android:layout_height="@dimen/_185pxh"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="@dimen/_80pxh"
+            android:layout_marginEnd="@dimen/_70pxh"
+            android:layout_marginTop="@dimen/_65pxv"
+            android:scaleType="fitXY"
+            android:src="@drawable/feverchoose"
+            tools:ignore="ContentDescription" />
+
         <TextView android:ellipsize="end" android:id="@+id/txtPatient"
             android:layout_gravity="end"
             android:layout_height="wrap_content"
             android:layout_marginBottom="@dimen/_20pxv"
-            android:layout_marginEnd="@dimen/_108pxh"
-            android:layout_marginStart="@dimen/_108pxh"
+            android:layout_marginEnd="@dimen/_130pxh"
+            android:layout_marginStart="@dimen/_87pxh"
             android:layout_marginTop="@dimen/_9pxv"
             android:layout_width="wrap_content"
             android:singleLine="true"
+            android:textColor="@color/white"
 
             style="@style/txtInterbold36" android:text="@string/lbl_patient"/>
     </LinearLayout>
