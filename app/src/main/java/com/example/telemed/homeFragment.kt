@@ -61,7 +61,7 @@ class homeFragment : Fragment() {
         var button = binding.logout
         button.setOnClickListener{
             // Sign out the current user
-             auth.signOut()
+            auth.signOut()
 
             // Optionally, you can navigate the user to the login or home screen
             // For example, if you have a LoginActivity:
