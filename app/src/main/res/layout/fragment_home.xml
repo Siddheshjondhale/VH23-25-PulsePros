@@ -118,6 +118,52 @@
                         style="@style/btnSolidRounded_1" android:text="@string/lbl_sos"/>
 
                 </LinearLayout>
+<!--                scroll starts-->
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="650dp"
+                    tools:layout_editor_absoluteX="0dp"
+                    tools:layout_editor_absoluteY="65dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+<!--<!-starts -&ndash;&gt;-->
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="420dp"
+                            android:layout_height="158dp"
+                            android:layout_gravity="center"
+                            android:layout_margin="10dp"
+                            app:cardBackgroundColor="@color/cyan_100"
+                            app:cardCornerRadius="20dp"
+                            app:cardElevation="10dp"
+                            app:cardPreventCornerOverlap="true"
+                            app:cardUseCompatPadding="true">
+
+
+
+
+
+                                <TextView
+                                    android:id="@+id/imageView"
+                                    android:layout_width="130dp"
+                                    android:layout_height="wrap_content"
+                                    android:text="ddfdf"
+                                     />
+
+
+
+
+
+                        </androidx.cardview.widget.CardView>
+<!--ends-->
+
+
+                    </LinearLayout>
+                </ScrollView>
+
+<!--                Scrool view ends-->
             </LinearLayout>
             <TextView android:ellipsize="end"
                 android:id="@+id/txtUpcomingAppoin"
