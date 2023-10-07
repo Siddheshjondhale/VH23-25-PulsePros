@@ -1,9 +1,14 @@
+import android.Manifest
 import android.content.Intent
+import android.content.pm.PackageManager
+import android.net.Uri
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Toast
+import androidx.core.app.ActivityCompat
+import androidx.core.content.ContextCompat
 import androidx.fragment.app.Fragment
 import com.example.telemed.HomeFragmenttemp
 import com.example.telemed.LoginScreen
@@ -90,11 +95,29 @@ class homeFragment : Fragment() {
         var btnSos=binding.btnSos
 
         btnSos.setOnClickListener {
-            // Sign out the current user
-//            val intent = Intent(requireContext(), FragmentActivityCallSOSBinding::class.java)
-//            startActivity(intent)
+            Toast.makeText(requireContext(), "fdfdfdfdf", Toast.LENGTH_SHORT).show()
+             val REQUEST_CALL = 1
 
+            val phoneNumber = "108"
+            val intent = Intent(Intent.ACTION_CALL, Uri.parse("tel:$phoneNumber"))
+
+            if (ContextCompat.checkSelfPermission(
+                    requireContext(),
+                    Manifest.permission.CALL_PHONE
+                ) == PackageManager.PERMISSION_GRANTED
+            ) {
+                startActivity(intent)
+            } else {
+                ActivityCompat.requestPermissions(
+                    requireActivity(),
+                    arrayOf(Manifest.permission.CALL_PHONE),
+                    REQUEST_CALL
+                )
+            }
         }
+
+
+
     }
 
 
