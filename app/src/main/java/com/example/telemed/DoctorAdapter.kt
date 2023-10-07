@@ -4,6 +4,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import org.w3c.dom.Text
 
 class DoctorAdapter(private val doctors: List<Doctor>, private val listener: OnItemClickListener) :
     RecyclerView.Adapter<DoctorAdapter.ViewHolder>() {
@@ -11,6 +12,8 @@ class DoctorAdapter(private val doctors: List<Doctor>, private val listener: OnI
     inner class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         val nameTextView: TextView = itemView.findViewById(R.id.nameTextView)
         val specialityTextView: TextView = itemView.findViewById(R.id.specialityTextView)
+        val emaildId: TextView = itemView.findViewById(R.id.EmaidID)
+
 
         init {
             itemView.setOnClickListener {
@@ -36,6 +39,7 @@ class DoctorAdapter(private val doctors: List<Doctor>, private val listener: OnI
         val doctor = doctors[position]
         holder.nameTextView.text = doctor.name
         holder.specialityTextView.text = doctor.speciality
+        holder.emaildId.text=doctor.email
     }
 
     override fun getItemCount(): Int {

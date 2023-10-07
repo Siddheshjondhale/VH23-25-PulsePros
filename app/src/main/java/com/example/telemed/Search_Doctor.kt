@@ -13,6 +13,7 @@ import com.google.firebase.firestore.FirebaseFirestore
 
 private const val ARG_PARAM1 = "param1"
 private const val ARG_PARAM2 = "param2"
+private const val ARG_PARAM3 = "param3" // Add this constant for email
 
 class Search_Doctor : Fragment(), DoctorAdapter.OnItemClickListener {
 
@@ -52,7 +53,8 @@ class Search_Doctor : Fragment(), DoctorAdapter.OnItemClickListener {
                 for (document in result) {
                     val name = document.getString("name") ?: ""
                     val speciality = document.getString("speciality") ?: ""
-                    val doctor = Doctor(name, speciality)
+                    val emailID = document.getString("email") ?: ""
+                    val doctor = Doctor(name, speciality, emailID)
                     doctorsList.add(doctor)
                 }
                 adapter.notifyDataSetChanged()
@@ -63,11 +65,12 @@ class Search_Doctor : Fragment(), DoctorAdapter.OnItemClickListener {
     }
 
     override fun onItemClick(position: Int) {
-        // Handle item click here
         val selectedDoctor = doctorsList[position]
 
         // Pass selectedDoctor data to DoctorMainPro4 fragment and navigate to it
-        val doctorMainPro4Fragment = DoctorMainPro4.newInstance(selectedDoctor.name, selectedDoctor.speciality)
+        val doctorMainPro4Fragment = DoctorMainPro4.newInstance(selectedDoctor.email)
+
+
         parentFragmentManager.beginTransaction()
             .replace(R.id.mainContainer, doctorMainPro4Fragment)
             .addToBackStack(null)

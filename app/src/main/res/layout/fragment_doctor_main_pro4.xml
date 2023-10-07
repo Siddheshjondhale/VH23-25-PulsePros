@@ -150,7 +150,7 @@
                 android:layout_marginStart="@dimen/_19pxh"
                 android:layout_marginTop="@dimen/_8pxv"
                 android:layout_width="match_parent"
-                style="" android:text="dfsfgsfgfsgfsg "/>
+                style="" android:text="In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.  "/>
             <TextView android:ellipsize="end"
                 android:id="@+id/txtRegisterationN"
                 android:layout_gravity="start"
