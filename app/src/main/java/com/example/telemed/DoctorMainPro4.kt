@@ -48,6 +48,25 @@ class DoctorMainPro4 : Fragment() {
         // Initialize Firestore
         val db = FirebaseFirestore.getInstance()
 
+
+       val Bookappointmentpat=binding.linearColumnbookappointmen
+        Bookappointmentpat.setOnClickListener{
+
+
+            val email = email // Retrieve the doctor's email from the class field
+
+            // Create a new instance of PatientAppointmentUI and pass the doctor's email
+            val appointmentFragment = PatientAppointmentUI.newInstance(email)
+
+            val transaction = parentFragmentManager.beginTransaction()
+            transaction.replace(R.id.mainContainer, appointmentFragment)
+            transaction.addToBackStack(null)
+            transaction.commit()
+
+
+
+        }
+
         // Reference to the doctor's profile using the email
         val doctorProfileRef = db.collection("users")
             .document("Doctors")

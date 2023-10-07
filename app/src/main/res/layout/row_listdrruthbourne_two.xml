@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <LinearLayout android:gravity="center_horizontal"
+        android:id="@+id/linearColumndrruthbourneTwo"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:orientation="vertical" style="@style/groupStylebluegray_100cornerRadius">
+        <FrameLayout android:id="@+id/frameStack"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="@dimen/_77pxv"
+            android:layout_marginEnd="@dimen/_25pxh"
+            android:layout_marginStart="@dimen/_25pxh"
+            android:layout_marginTop="@dimen/_13pxv"
+            android:layout_width="@dimen/_77pxh" style="@style/groupStyleindigo_800cornerRadius">
+            <ImageView android:id="@+id/imageImageOne"
+                android:layout_gravity="center"
+                android:layout_height="@dimen/_60pxh"
+                android:layout_marginBottom="@dimen/_8pxv"
+                android:layout_marginEnd="@dimen/_7pxh"
+                android:layout_marginStart="@dimen/_7pxh"
+                android:layout_marginTop="@dimen/_9pxv"
+                android:layout_width="@dimen/_63pxh"
+                android:scaleType="fitXY"
+
+                tools:ignore="ContentDescription" android:src="@drawable/img_image1"/>
+        </FrameLayout>
+        <TextView android:ellipsize="end"
+            android:gravity="center_horizontal"
+            android:id="@+id/txtDrRuthBourneTwo"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_25pxh"
+            android:layout_marginStart="@dimen/_25pxh"
+            android:layout_marginTop="@dimen/_8pxv"
+            android:layout_width="match_parent"
+            android:singleLine="true"
+
+            style="@style/txtKantumruybold11" android:text="@string/lbl_dr_ruth_bourne"/>
+        <TextView android:ellipsize="end"
+            android:id="@+id/txtCardiologistTwo"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_10pxv"
+            android:layout_marginEnd="@dimen/_25pxh"
+            android:layout_marginStart="@dimen/_25pxh"
+            android:layout_width="wrap_content"
+            android:singleLine="true"
+
+            style="@style/txtKantumruybold7" android:text="@string/lbl_cardiologist"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

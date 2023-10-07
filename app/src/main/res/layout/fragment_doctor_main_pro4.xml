@@ -37,8 +37,8 @@
                         android:layout_marginTop="@dimen/_28pxv"
                         android:layout_width="@dimen/_117pxh"
                         android:scaleType="fitXY"
-                        imageRes="@{@drawable/img_image5}"
-                        tools:ignore="ContentDescription" tools:src="@drawable/img_image5"/>
+
+                        tools:ignore="ContentDescription" android:src="@drawable/ic_user"/>
                 </FrameLayout>
                 <LinearLayout android:id="@+id/linearRowellipsethree"
                     android:layout_gravity="bottom|end"

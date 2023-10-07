@@ -69,4 +69,50 @@ Ecosystem.</string>
     <string name="lbl_enter_password">enter password</string>
 
 
+    <!--    New-->
+
+    <string name="msg_year_of_registe">Year Of Registeration: 2023</string>
+    <string name="lbl_tue">Tue</string>
+    <string name="lbl_date">Date:</string>
+    <string name="lbl_report_card">Report Card</string>
+    <string name="lbl_psychologist">Psychologist</string>
+    <string name="lbl_upcoming">Upcoming</string>
+    <string name="lbl_certified_by">Certified By:</string>
+    <string name="lbl_popular_doctors">Popular Doctors</string>
+    <string name="lbl_dec_5">Dec 5</string>
+    <string name="lbl_description">Description</string>
+    <string name="lbl_report_history">Report History</string>
+    <string name="lbl_8_30_am">8.30 AM</string>
+    <string name="lbl_12_30_pm">12:30 PM</string>
+    <string name="lbl_kate_brown">Kate Brown</string>
+    <string name="msg_how_do_you_feel">How do you feel today ?</string>
+    <string name="lbl_case_id">Case Id:</string>
+    <string name="msg_private_diagnos">Private Diagnosis</string>
+    <string name="msg_desc_lorem_ips">Desc: Lorem ipsum gvbhgfchv
+bjnhnklknljknjnjknljnjklnjj.....</string>
+    <string name="msg_case_id_123456">Case Id: 123456789</string>
+    <string name="msg_video_consultat">Video\u2028Consultation</string>
+    <string name="lbl_hi_joe">Hi, Joe !</string>
+    <string name="lbl_doctors">Doctors</string>
+    <string name="msg_washington_stre">Washington Street, America</string>
+    <string name="msg_next_appointmen">Next appointments</string>
+    <string name="msg_registeration_n">Registeration No: 123456789</string>
+    <string name="lbl_12">12</string>
+    <string name="lbl_prescription">Prescription:</string>
+    <string name="lbl_finished">Finished</string>
+    <string name="msg_lorem_ipsum_dol">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. </string>
+    <string name="msg_global_treatmen">Global Treatment</string>
+    <string name="lbl_cardiologist">Cardiologist</string>
+    <string name="lbl_dr_ruth_bourne">Dr. Ruth Bourne</string>
+    <string name="lbl_sos">SOS</string>
+    <string name="msg_waiting_for_cal">Waiting For Call</string>
+    <string name="lbl_give_feedback">Give\u2028Feedback</string>
+    <string name="lbl_enquiry">Enquiry</string>
+    <string name="msg_state_medical_c">State Medical Council: California</string>
+    <string name="msg_upcoming_appoin">Upcoming Appointments</string>
+    <string name="msg_book_appointmen">Book
+Appointment</string>
+    <string name="lbl_dermatologist">Dermatologist</string>
+
+
 </resources>

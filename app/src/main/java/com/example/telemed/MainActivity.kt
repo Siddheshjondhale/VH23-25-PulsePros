@@ -32,7 +32,7 @@ class MainActivity : AppCompatActivity() {
                     inflateFragment(homeFragment())
                 }
                 R.id.nav_dashboard -> {
-                    inflateFragment(homeFragment())
+                    inflateFragment(HomeFragmenttemp())
                 }
                 R.id.nav_guard -> {
                     inflateFragment(homeFragment())
