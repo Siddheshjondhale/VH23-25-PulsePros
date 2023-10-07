@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DoctorMainPro4">
+
+    <FrameLayout android:id="@+id/frameDoctorProfile"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent" style="@style/groupStylewhite_A700">
+        <LinearLayout android:id="@+id/linearColumnrectanglethirteen"
+            android:layout_gravity="top|start"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/_10pxv"
+            android:layout_width="match_parent" android:orientation="vertical">
+            <FrameLayout android:gravity="start"
+                android:id="@+id/frameStackrectanglethirteen"
+                android:layout_height="@dimen/_252pxv" android:layout_width="match_parent">
+                <View android:background="@color/blue_100"
+                    android:id="@+id/viewRectangleThirteen"
+                    android:layout_gravity="top|start"
+                    android:layout_height="@dimen/_168pxv"
+                    android:layout_marginBottom="@dimen/_10pxv" android:layout_width="@dimen/_360pxh"/>
+                <FrameLayout android:id="@+id/frameStack"
+                    android:layout_gravity="bottom|start"
+                    android:layout_height="@dimen/_168pxv"
+                    android:layout_marginEnd="@dimen/_26pxh"
+                    android:layout_marginStart="@dimen/_26pxh"
+                    android:layout_marginTop="@dimen/_10pxv"
+                    android:layout_width="@dimen/_154pxh" style="@style/groupStyleindigo_800cornerRadius">
+                    <ImageView android:id="@+id/imageImageFive"
+                        android:layout_gravity="center"
+                        android:layout_height="@dimen/_111pxh"
+                        android:layout_marginBottom="@dimen/_29pxv"
+                        android:layout_marginEnd="@dimen/_19pxh"
+                        android:layout_marginStart="@dimen/_18pxh"
+                        android:layout_marginTop="@dimen/_28pxv"
+                        android:layout_width="@dimen/_117pxh"
+                        android:scaleType="fitXY"
+                        imageRes="@{@drawable/img_image5}"
+                        tools:ignore="ContentDescription" tools:src="@drawable/img_image5"/>
+                </FrameLayout>
+                <LinearLayout android:id="@+id/linearRowellipsethree"
+                    android:layout_gravity="bottom|end"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/_69pxv"
+                    android:layout_marginEnd="@dimen/_21pxh"
+                    android:layout_marginStart="@dimen/_21pxh"
+                    android:layout_marginTop="@dimen/_69pxv"
+                    android:layout_width="wrap_content"
+                    android:orientation="horizontal" style="@style/groupStyleorange_600cornerRadius">
+                    <View
+                        android:background="@drawable/rectangle_bg_bluegray_100_radius_6_5"
+                        android:id="@+id/viewEllipseThree"
+                        android:layout_height="@dimen/_13pxh"
+                        android:layout_marginBottom="@dimen/_7pxv"
+                        android:layout_marginStart="@dimen/_10pxh"
+                        android:layout_marginTop="@dimen/_6pxv" android:layout_width="@dimen/_13pxh"/>
+                    <View
+                        android:background="@drawable/rectangle_bg_bluegray_100_radius_6_5"
+                        android:id="@+id/viewEllipseFour"
+                        android:layout_height="@dimen/_13pxh"
+                        android:layout_marginBottom="@dimen/_7pxv"
+                        android:layout_marginStart="@dimen/_5pxh"
+                        android:layout_marginTop="@dimen/_6pxv" android:layout_width="@dimen/_13pxh"/>
+                    <View
+                        android:background="@drawable/rectangle_bg_bluegray_100_radius_6_5"
+                        android:id="@+id/viewEllipseFive"
+                        android:layout_height="@dimen/_13pxh"
+                        android:layout_marginBottom="@dimen/_7pxv"
+                        android:layout_marginStart="@dimen/_6pxh"
+                        android:layout_marginTop="@dimen/_6pxv" android:layout_width="@dimen/_13pxh"/>
+                    <View
+                        android:background="@drawable/rectangle_bg_bluegray_100_radius_6_5"
+                        android:id="@+id/viewEllipseSix"
+                        android:layout_height="@dimen/_13pxh"
+                        android:layout_marginBottom="@dimen/_7pxv"
+                        android:layout_marginStart="@dimen/_5pxh"
+                        android:layout_marginTop="@dimen/_6pxv" android:layout_width="@dimen/_13pxh"/>
+                    <View
+                        android:background="@drawable/rectangle_bg_bluegray_100_radius_6_5"
+                        android:id="@+id/viewEllipseSeven"
+                        android:layout_height="@dimen/_13pxh"
+                        android:layout_marginBottom="@dimen/_7pxv"
+                        android:layout_marginEnd="@dimen/_42pxh"
+                        android:layout_marginStart="@dimen/_4pxh"
+                        android:layout_marginTop="@dimen/_6pxv" android:layout_width="@dimen/_13pxh"/>
+                </LinearLayout>
+                <TextView android:ellipsize="end"
+                    android:id="@+id/txtDrRuthBourne"
+                    android:layout_gravity="bottom|end"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/_25pxv"
+                    android:layout_marginEnd="@dimen/_38pxh"
+                    android:layout_marginStart="@dimen/_38pxh"
+                    android:layout_marginTop="@dimen/_25pxv"
+                    android:layout_width="wrap_content"
+                    android:singleLine="true"
+                    style="Dummy" android:text="Siddhesh JOndhale"/>
+                <TextView android:ellipsize="end"
+                    android:id="@+id/txtCardiologist"
+                    android:layout_gravity="bottom|end"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/_6pxv"
+                    android:layout_marginEnd="@dimen/_91pxh"
+                    android:layout_marginStart="@dimen/_91pxh"
+                    android:layout_marginTop="@dimen/_10pxv"
+                    android:layout_width="wrap_content"
+                    android:singleLine="true"
+                    android:text="cardiolosit"
+                    />
+            </FrameLayout>
+            <LinearLayout android:gravity="start"
+                android:id="@+id/linearRowwashingtonstre"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_19pxh"
+                android:layout_marginStart="@dimen/_19pxh"
+                android:layout_marginTop="@dimen/_25pxv"
+                android:layout_width="wrap_content" android:orientation="horizontal">
+                <ImageView android:id="@+id/imageImageFiveOne"
+                    android:layout_height="@dimen/_28pxh"
+                    android:layout_width="@dimen/_25pxh"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/img_image5_28x25"
+                    tools:ignore="ContentDescription" tools:src="@drawable/img_image5_28x25"/>
+                <TextView android:ellipsize="end"
+                    android:id="@+id/txtWashingtonStre"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/_3pxv"
+                    android:layout_marginStart="@dimen/_14pxh"
+                    android:layout_marginTop="@dimen/_4pxv"
+                    android:layout_weight="0.86"
+                    android:layout_width="0dp" android:singleLine="true"
+                    style="" android:text="Mumbai, Maharashtra"/>
+            </LinearLayout>
+            <TextView android:ellipsize="end"
+                android:id="@+id/txtDescription"
+                android:layout_gravity="start"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_26pxh"
+                android:layout_marginStart="@dimen/_26pxh"
+                android:layout_marginTop="@dimen/_29pxv"
+                android:layout_width="wrap_content"
+                android:singleLine="true"
+                style="" android:text="Description"/>
+            <TextView android:gravity="center_horizontal"
+                android:id="@+id/txtDescriptionOne"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_19pxh"
+                android:layout_marginStart="@dimen/_19pxh"
+                android:layout_marginTop="@dimen/_8pxv"
+                android:layout_width="match_parent"
+                style="" android:text="dfsfgsfgfsgfsg "/>
+            <TextView android:ellipsize="end"
+                android:id="@+id/txtRegisterationN"
+                android:layout_gravity="start"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_26pxh"
+                android:layout_marginStart="@dimen/_26pxh"
+                android:layout_marginTop="@dimen/_24pxv"
+                android:layout_width="wrap_content"
+                android:singleLine="true"
+                style="" android:text="Reg No"/>
+            <FrameLayout android:id="@+id/frameStackyearofregiste"
+                android:layout_gravity="start"
+                android:layout_height="@dimen/_38pxv"
+                android:layout_marginEnd="@dimen/_25pxh"
+                android:layout_marginStart="@dimen/_25pxh" android:layout_width="@dimen/_177pxh">
+                <TextView android:ellipsize="end"
+                    android:gravity="top|start"
+                    android:id="@+id/txtYearOfRegiste"
+                    android:layout_gravity="top|start"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/_10pxv"
+                    android:layout_marginEnd="@dimen/_10pxh"
+                    android:layout_marginStart="@dimen/_1pxh"
+                    android:layout_width="match_parent"
+                    android:singleLine="true"
+                    style="" android:text="Year of registration"/>
+                <TextView android:ellipsize="end"
+                    android:gravity="top|start"
+                    android:id="@+id/txtStateMedicalC"
+                    android:layout_gravity="bottom|start"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_10pxv"
+                    android:layout_width="match_parent"
+                    android:singleLine="true"
+                    style="" android:text="State of medical council"/>
+            </FrameLayout>
+            <LinearLayout android:id="@+id/linearRowbookappointmen"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_19pxh"
+                android:layout_marginStart="@dimen/_19pxh"
+                android:layout_marginTop="@dimen/_34pxv"
+                android:layout_width="match_parent" android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/linearColumnbookappointmen"
+                    style="@style/groupStyleorange_1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+
+                    android:layout_weight="0.5"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/txtBookAppointmen"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="@dimen/_19pxh"
+                        android:layout_marginTop="@dimen/_33pxv"
+                        android:layout_marginEnd="@dimen/_19pxh"
+                        android:layout_marginBottom="@dimen/_20pxv"
+                        android:gravity="center_horizontal"
+                        android:text="Book Slot" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center_horizontal"
+                    android:id="@+id/linearColumngivefeedback"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_29pxh"
+                    android:layout_weight="0.5"
+                    android:layout_width="0dp"
+                    android:orientation="vertical" style="@style/groupStyleorange_1">
+                    <TextView android:gravity="center_horizontal"
+                        android:id="@+id/txtGiveFeedback"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="@dimen/_40pxv"
+                        android:layout_marginEnd="@dimen/_34pxh"
+                        android:layout_marginStart="@dimen/_35pxh"
+                        android:layout_marginTop="@dimen/_33pxv"
+                        android:layout_width="match_parent"
+                        android:text="GIve Feedback"
+                        style="" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+
+
+
+</FrameLayout>

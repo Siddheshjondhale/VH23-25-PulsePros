@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import com.example.telemed.databinding.ActivityMainBinding
+import homeFragment
 
 class MainActivity : AppCompatActivity() {
 
@@ -37,7 +38,7 @@ class MainActivity : AppCompatActivity() {
                     inflateFragment(homeFragment())
                 }
                 R.id.nav_profile -> {
-                    inflateFragment(homeFragment())
+                    inflateFragment(DoctorMainPro4())
                 }
             }
             true
