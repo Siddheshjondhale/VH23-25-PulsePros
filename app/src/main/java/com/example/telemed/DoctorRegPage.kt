@@ -1,6 +1,5 @@
 package com.example.telemed
 
-import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
@@ -59,8 +58,6 @@ class DoctorRegPage : AppCompatActivity() {
                                         "Registration successful and data saved to Firestore.",
                                         Toast.LENGTH_SHORT
                                     ).show()
-                                    startActivity(Intent(this, DoctorProf::class.java))
-
                                 }
                                 .addOnFailureListener { e ->
                                     Toast.makeText(
