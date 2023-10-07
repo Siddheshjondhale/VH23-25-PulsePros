@@ -91,11 +91,9 @@ class DoctorMainPro4 : Fragment() {
                     binding.txtRegisterationN.text = "Reg no :"+doctor["regno"]
                     binding.txtYearOfRegiste.text = "Reg year :"+doctor["regyear"]
 
-                    Toast.makeText(requireContext(),doctor["speciality"] , Toast.LENGTH_SHORT).show()
 
 
                 } else {
-                    Toast.makeText(requireContext(),"doctorf" , Toast.LENGTH_SHORT).show()
 
                     // Handle the case where the document does not exist
                     // You can display an error message or handle it as needed

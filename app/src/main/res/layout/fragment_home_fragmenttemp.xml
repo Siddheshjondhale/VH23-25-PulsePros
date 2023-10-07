@@ -1,87 +1,17 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-
-    android:layout_height="match_parent"
-    xmlns="http://schemas.android.com/apk/res-auto"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-
-    tools:context=".HomeFragmenttemp">
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
 
     <FrameLayout android:id="@+id/frameHomePage"
         android:layout_height="match_parent"
-        android:layout_marginBottom="@dimen/_13pxv"
-        android:layout_marginStart="@dimen/_13pxh"
-        android:layout_marginTop="@dimen/_25pxv"
         android:layout_width="match_parent" style="@style/groupStylewhite_A700">
-        <FrameLayout android:id="@+id/frameBottombar"
-            android:layout_gravity="bottom|center"
-            android:layout_height="wrap_content"
-            android:layout_marginEnd="@dimen/_10pxh"
-            android:layout_width="wrap_content" style="@style/groupStylebluegray_100cornerRadius">
-            <LinearLayout android:id="@+id/linearRowhomeone"
-                android:layout_height="match_parent"
-                android:layout_width="match_parent" android:orientation="horizontal">
-                <FrameLayout android:id="@+id/frameStackhomeone"
-                    android:layout_height="@dimen/_46pxv"
-                    android:layout_width="@dimen/_46pxh" style="@style/groupStyleblue_A100cornerRadius">
-                    <ImageView android:id="@+id/imageHomeOne"
-                        android:layout_gravity="center"
-                        android:layout_height="@dimen/_36pxh"
-                        android:layout_marginBottom="@dimen/_5pxv"
-                        android:layout_marginTop="@dimen/_5pxv"
-                        android:layout_width="@dimen/_34pxh"
-                        android:scaleType="fitXY"
-                        android:src="@drawable/img_home1"
-                        tools:ignore="ContentDescription" tools:src="@drawable/img_home1"/>
-                </FrameLayout>
-                <FrameLayout android:id="@+id/frameStackclockone"
-                    android:layout_height="@dimen/_46pxv"
-                    android:layout_width="@dimen/_46pxh" style="@style/groupStyleblue_A100cornerRadius">
-                    <ImageView android:id="@+id/imageClockOne"
-                        android:layout_gravity="center"
-                        android:layout_height="@dimen/_34pxh"
-                        android:layout_marginHorizontal="@dimen/_6pxh"
-                        android:layout_marginVertical="@dimen/_6pxv"
-                        android:layout_width="@dimen/_34pxh"
-                        android:scaleType="fitXY"
-                        android:src="@drawable/img_clock1"
-                        tools:ignore="ContentDescription" tools:src="@drawable/img_clock1"/>
-                </FrameLayout>
-                <FrameLayout android:id="@+id/frameStackagreementone"
-                    android:layout_height="@dimen/_46pxv"
-                    android:layout_width="@dimen/_46pxh" style="@style/groupStyleblue_A100cornerRadius">
-                    <ImageView android:id="@+id/imageAgreementOne"
-                        android:layout_gravity="center"
-                        android:layout_height="@dimen/_34pxh"
-                        android:layout_marginBottom="@dimen/_6pxv"
-                        android:layout_marginTop="@dimen/_6pxv"
-                        android:layout_width="@dimen/_34pxh"
-                        android:scaleType="fitXY"
-                        android:src="@drawable/img_agreement1"
-                        tools:ignore="ContentDescription" tools:src="@drawable/img_agreement1"/>
-                </FrameLayout>
-                <FrameLayout android:id="@+id/frameStackprofileone"
-                    android:layout_height="@dimen/_46pxv"
-                    android:layout_width="@dimen/_46pxh" style="@style/groupStyleblue_A100cornerRadius">
-                    <ImageView android:id="@+id/imageProfileOne"
-                        android:layout_gravity="center"
-                        android:layout_height="@dimen/_28pxh"
-                        android:layout_marginBottom="@dimen/_9pxv"
-                        android:layout_marginTop="@dimen/_9pxv"
-                        android:layout_width="@dimen/_27pxh"
-                        android:scaleType="fitXY"
-                        android:src="@drawable/img_profile1"
-                        tools:ignore="ContentDescription" tools:src="@drawable/img_profile1"/>
-                </FrameLayout>
-            </LinearLayout>
-        </FrameLayout>
         <LinearLayout android:id="@+id/linearColumnupcomingappoin"
-            android:layout_gravity="top|center"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="@dimen/_10pxv"
-            android:layout_marginStart="@dimen/_4pxh"
+            android:layout_gravity="top|end"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/_25pxv"
+            android:layout_marginStart="@dimen/_10pxh"
+            android:layout_marginTop="@dimen/_25pxv"
             android:layout_width="match_parent" android:orientation="vertical">
             <LinearLayout android:gravity="center_horizontal"
                 android:id="@+id/linearColumnellipseeight"
@@ -96,7 +26,7 @@
                     android:layout_marginEnd="@dimen/_18pxh"
                     android:layout_marginStart="@dimen/_18pxh"
                     android:layout_marginTop="@dimen/_18pxv"
-                    android:layout_width="match_parent" android:contentInsetStart="0dp">
+                    android:layout_width="match_parent" app:contentInsetStart="0dp">
                     <LinearLayout android:id="@+id/linearRowhijoe"
                         android:layout_height="wrap_content"
                         android:layout_width="match_parent" android:orientation="horizontal">
@@ -119,6 +49,7 @@
                                 android:layout_marginTop="@dimen/_1pxv"
                                 android:layout_width="match_parent"
                                 android:singleLine="true"
+
                                 style="@style/txtKantumruyregular15" android:text="@string/msg_how_do_you_feel"/>
                         </LinearLayout>
                         <View
@@ -135,23 +66,20 @@
                     android:layout_marginStart="@dimen/_18pxh"
                     android:layout_marginTop="@dimen/_46pxv"
                     android:layout_width="match_parent" android:orientation="horizontal">
-
                     <androidx.appcompat.widget.AppCompatButton
+                        android:ellipsize="end" android:gravity="center"
                         android:id="@+id/btnDoctors"
-                        style="@style/btnSolidRounded"
-                        android:layout_width="157dp"
-                        android:layout_height="38dp"
+                        android:layout_height="wrap_content"
                         android:layout_weight="0.5"
-                        android:ellipsize="end"
-                        android:gravity="center"
+                        android:layout_width="0dp"
+                        android:paddingBottom="@dimen/_8pxv"
+                        android:paddingEnd="@dimen/_30pxh"
                         android:paddingStart="@dimen/_30pxh"
                         android:paddingTop="@dimen/_8pxv"
-                        android:paddingEnd="@dimen/_30pxh"
-                        android:paddingBottom="@dimen/_8pxv"
                         android:singleLine="true"
                         android:text="@string/lbl_doctors"
                         android:textAllCaps="false"
-                        tools:text="@string/lbl_doctors" />
+                        style="@style/btnSolidRounded" tools:text="@string/lbl_doctors"/>
                     <View
                         android:background="@drawable/rectangle_bg_white_a700_radius_18"
                         android:id="@+id/viewRectangleTwentyNine"
@@ -197,92 +125,14 @@
                 style="@style/txtKantumruybold19" android:text="@string/msg_upcoming_appoin"/>
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/recyclerListtwelve"
-                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_gravity="top|center"
                 android:layout_marginTop="@dimen/_7pxv"
+                android:layout_width="match_parent"
                 android:orientation="horizontal"
                 app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
-                app:layout="@layout/row_listtwelve" />
+                itemSpace="@{@dimen/_12pxh}" tools:itemCount="2" tools:listitem="@layout/row_listtwelve"/>
 
-            <TextView android:ellipsize="end"
-                android:id="@+id/txtPopularDoctors"
-                android:layout_height="wrap_content"
-                android:layout_marginEnd="@dimen/_10pxh"
-                android:layout_marginTop="@dimen/_30pxv"
-                android:layout_width="wrap_content"
-                android:singleLine="true"
-                style="@style/txtKantumruybold19" android:text="@string/lbl_popular_doctors"/>
-            <LinearLayout android:id="@+id/linearRowdrruthbourneTwo"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/_9pxv"
-                android:layout_width="match_parent" android:orientation="horizontal">
-                <androidx.recyclerview.widget.RecyclerView android:id="@+id/recyclerListdrruthbourneTwo" android:layout_height="wrap_content" android:layout_weight="0.92" android:layout_width="0dp" android:orientation="horizontal" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" tools:itemCount="2" tools:listitem="@layout/row_listdrruthbourne_two"/>
-                <HorizontalScrollView android:fillViewport="true"
-                    android:id="@+id/horizontalScrollHorizontalscrollrectanglethirtythree"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="@dimen/_15pxh"
-                    android:layout_weight="0.12"
-                    android:layout_width="0dp" android:scrollbars="none">
-                    <FrameLayout
-                        android:id="@+id/frameStackrectanglethirtythree"
-                        android:layout_height="@dimen/_138pxv" android:layout_width="@dimen/_37pxh">
-                        <ImageView
-                            android:id="@+id/imageRectangleThirtyThree"
-                            android:layout_gravity="end"
-                            android:layout_height="@dimen/_138pxh"
-                            android:layout_width="@dimen/_138pxh"
-                            android:scaleType="fitXY"
 
-                            tools:ignore="ContentDescription" android:src="@drawable/img_rectangle33"/>
-                        <LinearLayout
-                            android:id="@+id/linearColumndrruthbourneFour"
-                            android:layout_gravity="top|end"
-                            android:layout_height="wrap_content"
-                            android:layout_marginBottom="@dimen/_13pxv"
-                            android:layout_marginStart="@dimen/_10pxh"
-                            android:layout_marginTop="@dimen/_13pxv"
-                            android:layout_width="wrap_content" android:orientation="vertical">
-                            <FrameLayout android:id="@+id/frameStack"
-                                android:layout_gravity="center_horizontal"
-                                android:layout_height="@dimen/_77pxv"
-                                android:layout_marginEnd="@dimen/_6pxh"
-                                android:layout_marginStart="@dimen/_5pxh"
-                                android:layout_width="@dimen/_77pxh" style="@style/groupStyleindigo_800cornerRadius">
-                                <ImageView
-                                    android:id="@+id/imageImageThree"
-                                    android:layout_gravity="center"
-                                    android:layout_height="@dimen/_60pxh"
-                                    android:layout_marginBottom="@dimen/_8pxv"
-                                    android:layout_marginEnd="@dimen/_7pxh"
-                                    android:layout_marginStart="@dimen/_7pxh"
-                                    android:layout_marginTop="@dimen/_9pxv"
-                                    android:layout_width="@dimen/_63pxh"
-                                    android:scaleType="fitXY"
-
-                                    tools:ignore="ContentDescription" android:src="@drawable/img_image3"/>
-                            </FrameLayout>
-                            <TextView android:ellipsize="end"
-                                android:id="@+id/txtDrRuthBourneFour"
-                                android:layout_height="wrap_content"
-                                android:layout_marginTop="@dimen/_8pxv"
-                                android:layout_width="match_parent"
-                                android:singleLine="true"
-                                style="@style/txtKantumruybold11" android:text="@string/lbl_dr_ruth_bourne"/>
-                        </LinearLayout>
-                    </FrameLayout>
-                </HorizontalScrollView>
-                <TextView android:ellipsize="end"
-                    android:id="@+id/txtCardiologistFour"
-                    android:layout_height="wrap_content"
-                    android:layout_marginBottom="@dimen/_11pxv"
-                    android:layout_marginStart="@dimen/_10pxh"
-                    android:layout_marginTop="@dimen/_114pxv"
-                    android:layout_weight="0.14"
-                    android:layout_width="0dp" android:singleLine="true"
-
-                    style="@style/txtKantumruybold7" android:text="@string/lbl_cardiologist"/>
-            </LinearLayout>
         </LinearLayout>
     </FrameLayout>
-</FrameLayout>
+</LinearLayout>

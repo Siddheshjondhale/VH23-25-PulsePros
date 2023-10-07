@@ -3,7 +3,9 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Toast
 import androidx.fragment.app.Fragment
+import com.example.telemed.HomeFragmenttemp
 import com.example.telemed.LoginScreen
 import com.example.telemed.R
 import com.example.telemed.Search_Doctor
@@ -83,16 +85,39 @@ class homeFragment : Fragment() {
             // For example, if you have a LoginActivity:
             startActivity(Intent(requireContext(), LoginScreen::class.java))
         }
+
+
+        var btnSos=binding.btnSos
+
+        btnSos.setOnClickListener {
+            // Sign out the current user
+//            val intent = Intent(requireContext(), FragmentActivityCallSOSBinding::class.java)
+//            startActivity(intent)
+
+        }
     }
 
-    companion object {
-        @JvmStatic
-        fun newInstance(param1: String, param2: String) =
-            homeFragment().apply {
-                arguments = Bundle().apply {
-                    putString(ARG_PARAM1, param1)
-                    putString(ARG_PARAM2, param2)
-                }
+
+
+
+
+
+
+
+
+
+
+companion object {
+    @JvmStatic
+    fun newInstance(param1: String, param2: String) =
+        homeFragment().apply {
+            arguments = Bundle().apply {
+                putString(ARG_PARAM1, param1)
+                putString(ARG_PARAM2, param2)
             }
-    }
+        }
+}
+
+
+
 }
